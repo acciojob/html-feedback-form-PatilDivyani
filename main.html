@@ -11,11 +11,11 @@
     <form>
         <div>
             <label for="name" >Name</label>
-            <input type="text" id="name" minlength="3" maxlength="50" required>
+            <input type="text" id="name" name="name" minlength="3" maxlength="50" required>
         </div>
         <div>
             <label for="portfolio" >Portfolio</label>
-            <input type="url" id="portfolio"  required>
+            <input type="url" id="portfolio" name="portfolio"  required>
         </div>
         <div>
             <label for="favColor">favColor</label>
@@ -26,11 +26,9 @@
         </div>
         <div>
             <label for="likeness">likeness</label>
-            slide
+            <input type="range" id="likeness" name="likeness" min="0" max="10">
         </div>
-        <div>
-            <label for=""></label>
-        </div>
+        
     </form>
 </body>
 </html>
